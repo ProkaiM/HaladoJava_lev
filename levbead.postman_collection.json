@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "625f705f-8dc9-4785-b7f7-3f96811915d5",
+		"name": "levbead",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/allOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allOrder",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/modifyOrderStatus?id=2&status=Szállítás alatt.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/modifyOrderStatus?id=2&status=Szállítás alatt.",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"modifyOrderStatus"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "status",
+							"value": "Szállítás alatt."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allOrder",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/createOrderHamburger?id=2&customer=Béla&hamburgerID=2&hamburgerQuantity=1&extraTopping=sajt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/createOrderHamburger?id=2&customer=Béla&hamburgerID=2&hamburgerQuantity=1&extraTopping=sajt",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createOrderHamburger"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "customer",
+							"value": "Béla"
+						},
+						{
+							"key": "hamburgerID",
+							"value": "2"
+						},
+						{
+							"key": "hamburgerQuantity",
+							"value": "1"
+						},
+						{
+							"key": "extraTopping",
+							"value": "sajt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allOrder",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHotDog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHotDog",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHotDog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/modifyHotDogPrice?id=1&price=2500",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/modifyHotDogPrice?id=1&price=2500",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"modifyHotDogPrice"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "price",
+							"value": "2500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/modifyHotDogPrice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/modifyHotDogPrice",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"modifyHotDogPrice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHotDog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHotDog",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHotDog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHotdog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHotdog",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHotdog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHamburger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHamburger",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHamburger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/modifyHamburgerPrice?id=1&price=1800",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/modifyHamburgerPrice?id=1&price=1800",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"modifyHamburgerPrice"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "price",
+							"value": "1800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHamburger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHamburger",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHamburger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/createHamburger?id=2&name=Bitang&price=1600",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/createHamburger?id=2&name=Bitang&price=1600",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createHamburger"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "name",
+							"value": "Bitang"
+						},
+						{
+							"key": "price",
+							"value": "1600"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/createHamburger?id=2&name=Bitang&price=1600",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/createHamburger?id=2&name=Bitang&price=1600",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createHamburger"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "name",
+							"value": "Bitang"
+						},
+						{
+							"key": "price",
+							"value": "1600"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/allHamburger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allHamburger",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allHamburger"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
